@@ -20,9 +20,15 @@ Configurations Value | Provide the configurations related to regarding table typ
 
 ### Screenshots
 ---
+
+![Add Control](assets/addcontrol.PNG)
+
+![Configure Property](assets/configureproperty.PNG)
+
 ```bash
 incident;ticketnumber,title;title - Case Number:ticketnumber^account;name;Account Name:name
 ```
+![Auto Populate](assets/autopopulate.gif)
 
 # Get required tools
 ---
