@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest>
+  <control namespace="SatKar" constructor="AutoPopulateTextColumn" version="0.0.5" display-name-key="Control_Display_Name_Key" description-key="Control_Desc_Key" control-type="standard" preview-image="img/preview.png">
+    <!-- property node identifies a specific, configurable piece of data that the control expects from CDS -->
+    <property name="boundTextProperty" display-name-key="BoundTextProperty_Display_Key" description-key="BoundTextProperty_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true" />
+    <property name="regardingValue" display-name-key="RegardingValue_Display_Key" description-key="RegardingValue_Desc_Key" of-type="Lookup.Regarding" usage="input" required="true" />
+    <property name="configValue" display-name-key="ConfigValue_Display_Key" description-key="ConfigValue_Desc_Key" of-type="Multiple" usage="input" required="true" />
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/AutoPopulateTextColumn.css" order="1" />
+      <resx path="strings/AutoPopulateTextColumn.1033.resx" version="1.0.0" />
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true" />
+    </feature-usage>
+  </control>
+</manifest>
